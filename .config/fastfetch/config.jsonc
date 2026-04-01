@@ -1,0 +1,110 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "color": {"1": "blue", "2": "black"},
+    "source": "~/.config/fastfetch/png/mabel5.png",
+    "padding": {
+      "top": 0,
+      "right": 5
+    },
+    "height": 18
+  },
+  "display": {
+    "separator": " ▸ "
+  },
+  "modules": [
+    { "type": "title" },
+    "break",
+
+    {
+      "type": "custom",
+      "format": "\u001b[96m╭──────────── Software ───────────────────"
+    },
+    {
+      "type": "os",
+      "key": "│",
+      "keycolor": "red"
+    },
+    {
+      "type": "kernel",
+      "key": "│",
+      "keycolor": "red"
+    },
+    {
+      "type": "de",
+      "key": "│",
+      "keycolor": "green"
+    },
+    {
+      "type": "wm",
+      "key": "│",
+      "keycolor": "green"
+    },
+    {
+      "type": "packages",
+      "key": "│",
+      "keycolor": "yellow"
+    },
+    {
+      "type": "terminal",
+      "key": "│",
+      "keycolor": "yellow"
+    },
+    {
+      "type": "locale",
+      "key": "│",
+      "keycolor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[96m├──────────── Hardware ───────────────────"
+    },
+    {
+      "type": "memory",
+      "key": "│",
+      "keycolor": "blue"
+    },
+    {
+      "type": "host",
+      "key": "│",
+      "keycolor": "blue"
+    },
+    {
+      "type": "cpu",
+      "key": "│",
+      "keycolor": "blue"
+    },
+    {
+      "type": "gpu",
+      "key": "│",
+      "keycolor": "magenta"
+    },
+    {
+      "type": "battery",
+      "key": "│",
+      "keycolor": "red"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[96m├──────────── Actieve Tijd ───────────────"
+    },
+    {
+      "type": "uptime",
+      "key": "│",
+      "keycolor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[96m╰─────────────────────────────────────────"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 24,
+      "symbol": "circle",
+      "block": {
+        "width": 10
+      }
+    },
+    "break"
+  ]
+}
